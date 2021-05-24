@@ -11,5 +11,5 @@ function my_sqrt($n)
   return $x;
 }
 print_r(my_sqrt(16)."<br>");
-print_r(my_sqrt(14));
+print_r(my_sqrt(9));
 ?>
