@@ -1,10 +1,12 @@
 <?php
     function sum($num){
-        $n=0;
+        $s=0;
         for($i=0;$i<strlen($num);$i++){
-            $n++;
+            $s+=$num[$i];
         }
-        return $n;
+        return $s;
     }
-    echo sum(12928283);
+    echo sum("123");
+    echo "<br>";
+    echo sum("9999");
 ?>
