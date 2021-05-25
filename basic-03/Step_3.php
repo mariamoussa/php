@@ -15,5 +15,5 @@
     }
     $t="hello world world good world day world";
     $w="world";
-    echo "The word ".$w.", is present ".countword($t,$w)." times in the text.";
+    echo "The word ".$w.", is present ".countword($t,$w)." times in the text: $t";
 ?>
