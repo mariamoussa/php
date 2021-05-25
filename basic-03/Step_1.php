@@ -1,14 +1,13 @@
 <?php
-    for($x=1;$x<=8;$x++)
-    {
-    for ($y=1;$y<=$x;$y++)
-        {
-        echo "*";
-            if($y< $x)
-            {
-            echo " ";
+    $x = 1;
+    while ($x <= 8) {
+        for ($y = 1; $y <= $x; $y++) {
+            echo "*";
+            if ($y < $x) {
+                echo " ";
             }
         }
-        echo"<br>";
+        echo "<br/>";
+        $x = $x + 1;
     }
 ?>
